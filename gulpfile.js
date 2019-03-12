@@ -35,7 +35,7 @@ var gulp = require('gulp'),
 
 // Styles
 gulp.task('styles', function() {
-  return sass('src/styles/main.scss', { style: 'expanded' })
+  return sass('src/css/main.css', { style: 'expanded' })
     .pipe(autoprefixer('last 2 version'))
     .pipe(gulp.dest('dist/styles'))
     .pipe(rename({ suffix: '.min' }))
@@ -80,18 +80,18 @@ gulp.task('default', gulp.series('clean', function(done) {
 gulp.task('watch', function() {
 
   // Watch .scss files
-  gulp.watch('src/styles/**/*.scss', gulp.series('styles'));
+  gulp.watch('src/css/*.css', gulp.series('styles'));
 
   // Watch .js files
-  gulp.watch('src/scripts/**/*.js', gulp.series('scripts'));
+  gulp.watch('src/js/*.js', gulp.series('scripts'));
 
   // Watch image files
-  gulp.watch('src/images/**/*', gulp.series('images'));
+  gulp.watch('src/img/*', gulp.series('images'));
 
   // Create LiveReload server
   livereload.listen();
 
   // Watch any files in dist/, reload on change
-  gulp.watch(['dist/**']).on('change', livereload.changed);
+  gulp.watch(['src/**']).on('change', livereload.changed);
 
 });
