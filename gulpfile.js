@@ -65,13 +65,13 @@ gulp.task('default', gulp.series('clean', function(done) {
 gulp.task('watch', function() {
 
   // Watch .scss files
-  gulp.watch('src/styles/**/*.scss', ['styles']);
+  gulp.watch('src/styles/**/*.scss', gulp.series('styles'));
 
   // Watch .js files
-  gulp.watch('src/scripts/**/*.js', ['scripts']);
+  gulp.watch('src/scripts/**/*.js', gulp.series('scripts'));
 
   // Watch image files
-  gulp.watch('src/images/**/*', ['images']);
+  gulp.watch('src/images/**/*', gulp.series('images'));
 
   // Create LiveReload server
   livereload.listen();
