@@ -1,0 +1,1 @@
+body:before{white-space:pre;font-family:monospace;content:'Error: Invalid CSS after "1px solid #707070": expected expression (e.g. 1px, bold), was ";"\A         on line 4 of src/css/main.css\A \A 1: /* NAVBAR */\A 2: \A 3: .navbar {\A 4:     border-bottom: 1px solid #707070;\A 5:     /* background-color: white !important; */\A 6: }\A 7: \A 8: /* FILTER */\A 9: '}

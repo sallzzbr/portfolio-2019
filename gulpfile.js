@@ -17,6 +17,7 @@ var gulp = require('gulp'),
     cache = require('gulp-cache'),
     livereload = require('gulp-livereload'),
     del = require('del');
+    imageResize = require('gulp-image-resize');
 
   // Mover CSS para src/css  
   gulp.task('sass', function () {
@@ -65,14 +66,26 @@ gulp.task('images', function() {
     .pipe(notify({ message: 'Images task complete' }));
 });
 
+//RESIZE
+gulp.task('resize-images', function() {
+  const image_dest = 'src/img'; // Destino das imagens
+  return gulp.src('src/img/*.{jpg,png}')
+    .pipe(imageResize({
+      width: 300,
+      crop: false,
+      upscale: true
+    }))
+    .pipe(gulp.dest(image_dest))
+})
+
 // Clean
 gulp.task('clean', function() {
   return del(['dist/styles', 'dist/scripts', 'dist/img']);
 });
 
 // Default task
-gulp.task('default', gulp.series('clean', function(done) {
-  gulp.series('styles', 'scripts', 'images');
+gulp.task('default', gulp.series('styles', 'images', function(done) {
+  gulp.series('styles', 'images');
   done();
 }));
 

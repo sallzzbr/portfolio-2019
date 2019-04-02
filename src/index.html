@@ -13,24 +13,84 @@
 
 <body>
 
-    <div class="container">
-        <div class="row">
-          <div class="col-12">
-            Antonio Salgado
-          </div>
-          <div class="col-6">
-            portfolio
-          </div>
-          <div class="col-6">
-            curriculum
-          </div>
+  <!-- NAVBAR -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Antônio Salgado</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link active" href="#">portfolio <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">curriculum</a>
         </div>
       </div>
+    </nav>    
+  </div>
+
+  <!-- FILTER -->
+  <div class="container d-none d-sm-block filter mt-5">
+    <div class="row">
+      <div class="col-sm-2 col-md-1">
+        <h4>Filter:</h4>
+      </div>
+      <div class="col-sm-10 col-md-11 pl-sm-0 pl-md-2">
+        <ul class="filter-list pl-sm-0 pl-md-2 mt-1">
+          <li><a href="#">Teste</a></li>
+          <li><a href="#">Teste</a></li>
+          <li><a href="#">Teste</a></li>
+        </ul>
+      </div> 
+    </div>    
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="container projects mt-3">
+    <div class="row">     
+      <div class="col-12 col-sm-3 col-md-2 mt-4 mt-sm-3 project-card">
+        <div class="project-card-content">
+          <a href="#">
+            <img src="img/007spectre.png">
+            <div class="project-name">
+              <p class="mt-1">007 Spectre</p>
+              <ul class="tags-list pl-sm-0 pl-md-2 mt-1">
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+              </ul>
+            </div> 
+          </a>
+        </div>
+      </div>
+      <div class="col-12 col-sm-3 col-md-2 mt-4 mt-sm-3 project-card">
+        <div class="project-card-content">
+          <a href="#">
+            <img src="img/007spectre.png">
+            <div class="project-name">
+              <p class="mt-1">007 Spectre</p>
+              <ul class="tags-list pl-sm-0 pl-md-2 mt-1">
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+                <li><a href="#">Teste</a></li>
+              </ul>
+            </div> 
+          </a>
+        </div>
+      </div>
+    </div>    
+  </div>
 
 
-  <script src="js/bootstrap.min.js"></script>
   <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
