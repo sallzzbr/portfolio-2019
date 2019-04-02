@@ -1,39 +1,25 @@
 /*
-Error: Invalid CSS after "1px solid #707070": expected expression (e.g. 1px, bold), was ";"
-        on line 4 of src/css/main.css
+Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.
+        on line 73 of src/css/main.css
 
-1: /* NAVBAR *\/
-2: 
-3: .navbar {
-4:     border-bottom: 1px solid #707070;
-5:     /* background-color: white !important; *\/
-6: }
-7: 
-8: /* FILTER *\/
-9: 
+68: }
+69: 
+70: /* FOOTER *\/
+71: 
+72: .my-footer {
+73:   position: absolute; 
+74:   bottom: 0;
+75:   left: 0; 
+76:   right: 0; 
+77:   margin-left: auto; 
+78:   margin-right: auto; 
 
 Backtrace:
-src/css/main.css:4
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/scss/parser.rb:1308:in `expected'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/script/lexer.rb:240:in `expected!'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/script/parser.rb:897:in `assert_done'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/script/parser.rb:69:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/script/parser.rb:228:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/script.rb:27:in `parse'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:1169:in `parse_script'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:745:in `parse_property'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:707:in `parse_property_or_rule'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:666:in `parse_line'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:539:in `build_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:558:in `block in append_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:557:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:557:in `append_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:548:in `block in build_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:541:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:541:in `build_tree'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:558:in `block in append_children'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:557:in `each'
-/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:557:in `append_children'
+src/css/main.css:73
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:494:in `block in tabulate'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:452:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:452:in `each_with_index'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:452:in `tabulate'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:417:in `_to_tree'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:290:in `render'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/plugin/compiler.rb:464:in `update_stylesheet'
@@ -52,4 +38,4 @@ src/css/main.css:4
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Invalid CSS after \"1px solid #707070\": expected expression (e.g. 1px, bold), was \";\"\A         on line 4 of src/css/main.css\A \A 1: /* NAVBAR */\A 2: \A 3: .navbar {\A 4:     border-bottom: 1px solid #707070;\A 5:     /* background-color: white !important; */\A 6: }\A 7: \A 8: /* FILTER */\A 9: "; }
+  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 73 of src/css/main.css\A \A 68: }\A 69: \A 70: /* FOOTER */\A 71: \A 72: .my-footer {\A 73:   position: absolute; \A 74:   bottom: 0;\A 75:   left: 0; \A 76:   right: 0; \A 77:   margin-left: auto; \A 78:   margin-right: auto; "; }

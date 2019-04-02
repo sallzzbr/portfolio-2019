@@ -1,3 +1,14 @@
+/* GLOBAL */
+
+.page-content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content-wrapper {
+    padding-bottom: 2.5rem;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -54,4 +65,22 @@
 
 .tags-list li {
     display: inline-block;
+}
+
+/* FOOTER */
+
+.my-footer {
+  position: absolute; 
+  bottom: 0;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+
+.my-footer img {
+ max-width: 32px;
+ max-height: 32px;
+ width: 100%;
+ height: 100%;
 }
