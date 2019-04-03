@@ -12,6 +12,7 @@ $.getJSON( "../data.json", function( data ) {
         for(var j = 0; j < data.project[i].tags.length; j++){
             var projectTags = HTMLprojectTag.replace("%data%", data.project[i].tags[j]);
             $(".tags-list:last").append(projectTags);
+            $( ".project-card:last" ).addClass( data.project[i].tags[j]);
         }
     }
 
