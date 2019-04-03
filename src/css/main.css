@@ -62,10 +62,16 @@ a:hover {
 }
 
 .selected-filter {
-    color: blue;
-    border: 1px solid blue; 
+    color: white;
+    background-color: #707070;
+    border: 1px solid #707070;
     padding: 2px;
     border-radius: 5px;
+}
+
+.selected-filter:hover {
+    color: #707070;
+    background-color: white;
 }
 
 /* PROJECTS CARDS */
@@ -112,6 +118,14 @@ a:hover {
 
 .tags-list li {
     display: inline-block;
+}
+
+.tags-list li a {
+    text-transform: capitalize;
+    color: #707070;
+    border: 1px solid #707070;
+    padding: 2px;
+    border-radius: 5px;
 }
 
 /* FOOTER */
