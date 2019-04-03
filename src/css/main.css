@@ -1,5 +1,12 @@
 /* GLOBAL */
 
+@font-face {
+    font-family: "Gothan Narrow";
+    src: url("fonts/GothamNarrow-Ultra.otf");
+    src: 
+    url("fonts/GothamNarrow-Ultra.otf") format("otf"),
+    }
+
 .page-content {
     position: relative;
     min-height: 100vh;
@@ -9,6 +16,16 @@
     padding-bottom: 2.5rem;
 }
 
+a, p, h1, h2, h3, h4, h5, span {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+}
+
+a:hover {
+    color: #707070;
+    text-decoration: none;
+}
+
 /* NAVBAR */
 
 .navbar {
@@ -16,10 +33,21 @@
     /* background-color: white !important; */
 }
 
+.navbar-brand {
+    font-family: 'Gothan Narrow', Arial, sans-serif;
+}
+
 /* FILTER */
 
 .filter-list li {
     display: inline-block;
+    margin-right: 15px;
+}
+
+.filter h4 {
+    color: black;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 /* PROJECTS CARDS */
@@ -35,9 +63,9 @@
     height: 100%;
     overflow: hidden;
     border-radius: 5%;
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
-    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
 }
 
 .project-card img{
@@ -61,6 +89,7 @@
 
 .project-name p {
     text-align: center;
+    color: black;
 }
 
 .tags-list li {
