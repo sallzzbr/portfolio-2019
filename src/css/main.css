@@ -50,6 +50,11 @@ a:hover {
     font-weight: 600;
 }
 
+#hidden-filter {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
 /* PROJECTS CARDS */
 
 .project-card {

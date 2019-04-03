@@ -1,21 +1,21 @@
 /*
 Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.
-        on line 102 of src/css/main.css
+        on line 107 of src/css/main.css
 
-97: }
-98: 
-99: /* FOOTER *\/
-100: 
-101: .my-footer {
-102:   position: absolute; 
-103:   bottom: 0;
-104:   left: 0; 
-105:   right: 0; 
-106:   margin-left: auto; 
-107:   margin-right: auto; 
+102: }
+103: 
+104: /* FOOTER *\/
+105: 
+106: .my-footer {
+107:   position: absolute; 
+108:   bottom: 0;
+109:   left: 0; 
+110:   right: 0; 
+111:   margin-left: auto; 
+112:   margin-right: auto; 
 
 Backtrace:
-src/css/main.css:102
+src/css/main.css:107
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:494:in `block in tabulate'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:452:in `each'
 /Library/Ruby/Gems/2.3.0/gems/sass-3.7.3/lib/sass/engine.rb:452:in `each_with_index'
@@ -38,4 +38,4 @@ src/css/main.css:102
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 102 of src/css/main.css\A \A 97: }\A 98: \A 99: /* FOOTER */\A 100: \A 101: .my-footer {\A 102:   position: absolute; \A 103:   bottom: 0;\A 104:   left: 0; \A 105:   right: 0; \A 106:   margin-left: auto; \A 107:   margin-right: auto; "; }
+  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 107 of src/css/main.css\A \A 102: }\A 103: \A 104: /* FOOTER */\A 105: \A 106: .my-footer {\A 107:   position: absolute; \A 108:   bottom: 0;\A 109:   left: 0; \A 110:   right: 0; \A 111:   margin-left: auto; \A 112:   margin-right: auto; "; }
