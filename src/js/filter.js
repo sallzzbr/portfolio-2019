@@ -26,6 +26,8 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".animation" ).hide();
             $( ".dev" ).hide();
             $( ".graphic-design" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".illustration" ).show();
         } 
         if($(this).hasClass('ux-filter')) {
@@ -35,6 +37,8 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".dev" ).hide();
             $( ".graphic-design" ).hide();
             $( ".illustration" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".UX-design" ).show();
         } 
         if($(this).hasClass('game-filter')) {
@@ -44,6 +48,8 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".dev" ).hide();
             $( ".graphic-design" ).hide();
             $( ".illustration" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".game-design" ).show();
         } 
         if($(this).hasClass('mobile-filter')) {
@@ -53,6 +59,8 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".dev" ).hide();
             $( ".graphic-design" ).hide();
             $( ".illustration" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".mobile" ).show();
         } 
         if($(this).hasClass('dev-filter')) {
@@ -62,6 +70,8 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".mobile" ).hide();
             $( ".graphic-design" ).hide();
             $( ".illustration" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".dev" ).show();
         } 
         if($(this).hasClass('graphic-filter')) {
@@ -71,6 +81,8 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".mobile" ).hide();
             $( ".dev" ).hide();
             $( ".illustration" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".graphic-design" ).show();
         }
         if($(this).hasClass('animation-filter')) {
@@ -80,6 +92,8 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".mobile" ).hide();
             $( ".dev" ).hide();
             $( ".illustration" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".animation" ).show();
         }  
         if($(this).hasClass('illustration-filter')) {
@@ -89,7 +103,31 @@ $(document).on("click", ".filter-list li a", function (e3) {
             $( ".mobile" ).hide();
             $( ".dev" ).hide();
             $( ".animation" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).hide();
             $( ".illustration" ).show();
+        } 
+        if($(this).hasClass('branding-filter')) {
+            $( ".game-design" ).hide();
+            $( ".UX-design" ).hide();
+            $( ".graphic-design" ).hide();
+            $( ".mobile" ).hide();
+            $( ".dev" ).hide();
+            $( ".animation" ).hide();
+            $( ".illustration" ).hide();
+            $( ".web" ).hide();
+            $( ".branding" ).show();
+        } 
+        if($(this).hasClass('web-filter')) {
+            $( ".game-design" ).hide();
+            $( ".UX-design" ).hide();
+            $( ".graphic-design" ).hide();
+            $( ".mobile" ).hide();
+            $( ".dev" ).hide();
+            $( ".animation" ).hide();
+            $( ".illustration" ).hide();
+            $( ".branding" ).hide();
+            $( ".web" ).show();
         } 
     } 
     if($(this).hasClass('filter-button'))  {
@@ -100,5 +138,7 @@ $(document).on("click", ".filter-list li a", function (e3) {
         $( ".dev" ).show();
         $( ".graphic-design" ).show();
         $( ".illustration" ).show();
+        $( ".branding" ).show();
+        $( ".web" ).show();
     }
 });

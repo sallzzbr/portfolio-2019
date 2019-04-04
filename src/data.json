@@ -2,7 +2,7 @@
     "project": [
         {
             "name": "Aeon",
-            "tags": ["UX-design", "mobile"],
+            "tags": ["UX-design", "mobile", "branding"],
             "link": "#",
             "image": "AeonLogo.png"
         },
@@ -14,7 +14,7 @@
         },
         {
             "name": "Odessa",
-            "tags": ["game-design", "animation", "dev", "mobile"],
+            "tags": ["game-design", "animation", "dev", "mobile", "branding"],
             "link": "#",
             "image": "OdessaLogo.png"
         },
@@ -23,6 +23,36 @@
             "tags": ["graphic-design"],
             "link": "#",
             "image": "ploxsto.png"
+        },
+        {
+            "name": "Organicards",
+            "tags": ["UX-design", "game-design", "mobile", "branding"],
+            "link": "#",
+            "image": "OrganicardsLogo.png"
+        },
+        {
+            "name": "CELPI",
+            "tags": ["UX-design", "branding"],
+            "link": "#",
+            "image": "CelpiLogo.png"
+        },
+        {
+            "name": "Wedu",
+            "tags": ["UX-design", "branding", "web"],
+            "link": "#",
+            "image": "WeduLogo.png"
+        },
+        {
+            "name": "Guilho",
+            "tags": ["UX-design", "branding", "web"],
+            "link": "#",
+            "image": "GuilhoLogo.png"
+        },
+        {
+            "name": "Forsetti",
+            "tags": ["UX-design", "branding", "game-design", "dev", "animation"],
+            "link": "#",
+            "image": "Forsetti.png"
         }
     ]
 }
