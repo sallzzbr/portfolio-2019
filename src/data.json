@@ -1,10 +1,10 @@
 {
     "project": [
         {
-            "name": "007 Spectre",
-            "tags": ["illustration"],
+            "name": "Aeon",
+            "tags": ["UX-design", "mobile"],
             "link": "#",
-            "image": "007spectre.png"
+            "image": "AeonLogo.png"
         },
         {
             "name": "007 Spectre",
@@ -13,16 +13,16 @@
             "image": "007spectre.png"
         },
         {
-            "name": "007 Spectre",
-            "tags": ["illustration", "vector"],
+            "name": "Odessa",
+            "tags": ["game-design", "animation", "dev", "mobile"],
             "link": "#",
-            "image": "007spectre.png"
+            "image": "OdessaLogo.png"
         },
         {
-            "name": "007 Spectre",
-            "tags": ["vector"],
+            "name": "Ploxsto",
+            "tags": ["graphic-design"],
             "link": "#",
-            "image": "007spectre.png"
+            "image": "ploxsto.png"
         }
     ]
 }

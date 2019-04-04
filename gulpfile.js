@@ -71,7 +71,7 @@ gulp.task('resize-images', function() {
   const image_dest = 'src/img'; // Destino das imagens
   return gulp.src('src/img/*.{jpg,png}')
     .pipe(imageResize({
-      width: 300,
+      width: 400,
       crop: false,
       upscale: true
     }))
