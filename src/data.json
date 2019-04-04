@@ -53,6 +53,36 @@
             "tags": ["UX-design", "branding", "game-design", "dev", "animation"],
             "link": "#",
             "image": "Forsetti.png"
+        },
+        {
+            "name": "Bolsa bola",
+            "tags": ["UX-design"],
+            "link": "#",
+            "image": "bolsabola.JPG"
+        },
+        {
+            "name": "Luna by the lake",
+            "tags": ["illustration"],
+            "link": "#",
+            "image": "lunag2.jpg"
+        },
+        {
+            "name": "My beard is divine",
+            "tags": ["graphic-design"],
+            "link": "#",
+            "image": "beardposter.png"
+        },
+        {
+            "name": "C*k@ Bl*@t Rush B!",
+            "tags": ["game-design", "dev"],
+            "link": "#",
+            "image": "cykablyat.png"
+        },
+        {
+            "name": "Batalha especial",
+            "tags": ["game-design"],
+            "link": "#",
+            "image": "spacebattle.png"
         }
     ]
 }

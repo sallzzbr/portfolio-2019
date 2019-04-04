@@ -93,7 +93,9 @@ a:hover {
 }
 
 .project-card img{
-    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    width: auto;
 }
 
 .project-name {
