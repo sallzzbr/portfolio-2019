@@ -83,6 +83,54 @@
             "tags": ["game-design"],
             "link": "#",
             "image": "spacebattle.png"
+        },
+        {
+            "name": "Zerando Games",
+            "tags": ["UX-design", "web", "dev", "branding"],
+            "link": "#",
+            "image": "zerangoGames.png"
+        },
+        {
+            "name": "Ydrizelba",
+            "tags": ["UX-design", "dev", "branding"],
+            "link": "#",
+            "image": "Ydrizelba.png"
+        },
+        {
+            "name": "Libre",
+            "tags": ["UX-design", "dev", "mobile", "branding"],
+            "link": "#",
+            "image": "Libre.png"
+        },
+        {
+            "name": "Maestro Hero",
+            "tags": ["dev", "mobile"],
+            "link": "#",
+            "image": "MaestroHero.png"
+        },
+        {
+            "name": "Graduation Jewelry",
+            "tags": ["UX-design", "branding"],
+            "link": "#",
+            "image": "Joias.png"
+        },
+        {
+            "name": "Robot fight",
+            "tags": ["game-design", "dev"],
+            "link": "#",
+            "image": "robotfight.png"
+        },
+        {
+            "name": "Iceman",
+            "tags": ["illustration"],
+            "link": "#",
+            "image": "iceman.png"
+        },
+        {
+            "name": "I'm nuclear",
+            "tags": ["illustration"],
+            "link": "#",
+            "image": "imnuclear.png"
         }
     ]
 }
