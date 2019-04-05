@@ -15,119 +15,129 @@ $(document).on("click", ".selected-filter", function (e2) {
     $(".hidden-filter").removeClass("hidden-filter").addClass("filter-button");
     $(this).removeClass("selected-filter").addClass("filter-button");
 });
+function filter(a, b, c, d, e, f, g, h, i){
+    $( a ).hide();
+    $( b ).hide();
+    $( c ).hide();
+    $( d).hide();
+    $( e ).hide();
+    $( f ).hide();
+    $( g ).hide();
+    $( h ).hide();
+    $( i ).show();
+}
+
 //FILTER HIDING AND SHOW ACCORDING TO THE CLASS
 $(document).on("click", ".filter-list li a", function (e3) {
     if($(this).hasClass('selected-filter'))  {
         console.log(this.className);
         if($(this).hasClass('illustration-filter')) {
-            $( ".UX-design" ).hide();
-            $( ".mobile" ).hide();
-            $( ".game-design" ).hide();
-            $( ".animation" ).hide();
-            $( ".dev" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".illustration" ).show();
+            filter(
+            ".UX-design",
+            ".mobile",
+            ".game-design",
+            ".animation",
+            ".dev",
+            ".graphic-design",
+            ".branding",
+            ".web",
+            ".illustration");
         } 
         if($(this).hasClass('ux-filter')) {
-            $( ".mobile" ).hide();
-            $( ".game-design" ).hide();
-            $( ".animation" ).hide();
-            $( ".dev" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".illustration" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".UX-design" ).show();
+            filter(
+            ".mobile",
+            ".game-design",
+            ".animation",
+            ".dev",
+            ".graphic-design",
+            ".branding",
+            ".web",
+            ".illustration",
+            ".UX-design");
         } 
         if($(this).hasClass('game-filter')) {
-            $( ".mobile" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".animation" ).hide();
-            $( ".dev" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".illustration" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".game-design" ).show();
+            filter(
+            ".mobile",
+            ".UX-design",
+            ".animation",
+            ".dev",
+            ".graphic-design",
+            ".branding",
+            ".web",
+            ".illustration",
+            ".game-design");
         } 
         if($(this).hasClass('mobile-filter')) {
-            $( ".game-design" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".animation" ).hide();
-            $( ".dev" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".illustration" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".mobile" ).show();
+            filter(
+            ".UX-design",
+            ".game-design",
+            ".animation",
+            ".dev",
+            ".graphic-design",
+            ".branding",
+            ".web",
+            ".illustration",
+            ".mobile");
         } 
         if($(this).hasClass('dev-filter')) {
-            $( ".game-design" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".animation" ).hide();
-            $( ".mobile" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".illustration" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".dev" ).show();
+            filter(
+                ".UX-design",
+                ".game-design",
+                ".animation",
+                ".mobile",
+                ".graphic-design",
+                ".branding",
+                ".web",
+                ".illustration",
+                ".dev");
         } 
         if($(this).hasClass('graphic-filter')) {
-            $( ".game-design" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".animation" ).hide();
-            $( ".mobile" ).hide();
-            $( ".dev" ).hide();
-            $( ".illustration" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".graphic-design" ).show();
+            filter(
+                ".UX-design",
+                ".game-design",
+                ".animation",
+                ".dev",
+                ".mobile",
+                ".branding",
+                ".web",
+                ".illustration",
+                ".graphic-design");
         }
         if($(this).hasClass('animation-filter')) {
-            $( ".game-design" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".mobile" ).hide();
-            $( ".dev" ).hide();
-            $( ".illustration" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".animation" ).show();
+            filter(
+                ".UX-design",
+                ".game-design",
+                ".graphic-design",
+                ".dev",
+                ".mobile",
+                ".branding",
+                ".web",
+                ".illustration",
+                ".animation");
         }  
-        if($(this).hasClass('illustration-filter')) {
-            $( ".game-design" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".mobile" ).hide();
-            $( ".dev" ).hide();
-            $( ".animation" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).hide();
-            $( ".illustration" ).show();
-        } 
         if($(this).hasClass('branding-filter')) {
-            $( ".game-design" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".mobile" ).hide();
-            $( ".dev" ).hide();
-            $( ".animation" ).hide();
-            $( ".illustration" ).hide();
-            $( ".web" ).hide();
-            $( ".branding" ).show();
+            filter(
+                ".UX-design",
+                ".game-design",
+                ".graphic-design",
+                ".dev",
+                ".mobile",
+                ".animation",
+                ".web",
+                ".illustration",
+                ".branding");
         } 
         if($(this).hasClass('web-filter')) {
-            $( ".game-design" ).hide();
-            $( ".UX-design" ).hide();
-            $( ".graphic-design" ).hide();
-            $( ".mobile" ).hide();
-            $( ".dev" ).hide();
-            $( ".animation" ).hide();
-            $( ".illustration" ).hide();
-            $( ".branding" ).hide();
-            $( ".web" ).show();
+            filter(
+                ".UX-design",
+                ".game-design",
+                ".graphic-design",
+                ".dev",
+                ".mobile",
+                ".branding",
+                ".animation",
+                ".illustration",
+                ".web");
         } 
     } 
     if($(this).hasClass('filter-button'))  {

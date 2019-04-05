@@ -106,6 +106,9 @@ a:hover {
     background-color: white;
     height: 15%;
     transition: 0.5s;
+    -webkit-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
+    -moz-box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
+    box-shadow: 0px -2px 5px 0px rgba(0,0,0,0.05);
 }
 
 .project-card-content:hover > .project-name {
@@ -115,6 +118,7 @@ a:hover {
 .project-name p {
     text-align: center;
     color: black;
+    font-weight: 700;
 }
 
 .tags-list li {

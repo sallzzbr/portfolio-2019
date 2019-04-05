@@ -7,46 +7,10 @@
             "image": "AeonLogo.png"
         },
         {
-            "name": "007 Spectre",
-            "tags": ["illustration"],
+            "name": "Libre",
+            "tags": ["UX-design", "dev", "mobile", "branding"],
             "link": "#",
-            "image": "007spectre.png"
-        },
-        {
-            "name": "Odessa",
-            "tags": ["game-design", "animation", "dev", "mobile", "branding"],
-            "link": "#",
-            "image": "OdessaLogo.png"
-        },
-        {
-            "name": "Ploxsto",
-            "tags": ["graphic-design"],
-            "link": "#",
-            "image": "ploxsto.png"
-        },
-        {
-            "name": "Organicards",
-            "tags": ["UX-design", "game-design", "mobile", "branding"],
-            "link": "#",
-            "image": "OrganicardsLogo.png"
-        },
-        {
-            "name": "CELPI",
-            "tags": ["UX-design", "branding"],
-            "link": "#",
-            "image": "CelpiLogo.png"
-        },
-        {
-            "name": "Wedu",
-            "tags": ["UX-design", "branding", "web"],
-            "link": "#",
-            "image": "WeduLogo.png"
-        },
-        {
-            "name": "Guilho",
-            "tags": ["UX-design", "branding", "web"],
-            "link": "#",
-            "image": "GuilhoLogo.png"
+            "image": "Libre.png"
         },
         {
             "name": "Forsetti",
@@ -55,22 +19,64 @@
             "image": "Forsetti.png"
         },
         {
+            "name": "Organicards",
+            "tags": ["UX-design", "game-design", "mobile", "branding"],
+            "link": "#",
+            "image": "OrganicardsLogo.png"
+        },
+        {
+            "name": "Guilho",
+            "tags": ["UX-design", "branding", "web"],
+            "link": "#",
+            "image": "GuilhoLogo.png"
+        },
+        {
+            "name": "Wedu",
+            "tags": ["UX-design", "branding", "web"],
+            "link": "#",
+            "image": "WeduLogo.png"
+        },
+        {
+            "name": "Odessa",
+            "tags": ["game-design", "animation", "dev", "mobile", "branding"],
+            "link": "#",
+            "image": "OdessaLogo.png"
+        },
+        {
+            "name": "CELPI",
+            "tags": ["UX-design", "branding"],
+            "link": "#",
+            "image": "CelpiLogo.png"
+        },
+        {
+            "name": "Zerando Games",
+            "tags": ["UX-design", "web", "dev", "branding"],
+            "link": "#",
+            "image": "zerangoGames.png"
+        },
+        {
             "name": "Bolsa bola",
             "tags": ["UX-design"],
             "link": "#",
             "image": "bolsabola.JPG"
         },
         {
-            "name": "Luna by the lake",
-            "tags": ["illustration"],
-            "link": "#",
-            "image": "lunag2.jpg"
-        },
-        {
-            "name": "My beard is divine",
+            "name": "Ploxsto",
             "tags": ["graphic-design"],
             "link": "#",
-            "image": "beardposter.png"
+            "image": "ploxsto.png"
+        },
+        {
+            "name": "Maestro Hero",
+            "tags": ["dev", "mobile"],
+            "link": "#",
+            "image": "MaestroHero.png"
+        },
+        {
+            "name": "Ydrizelba",
+            "tags": ["UX-design", "dev", "branding"],
+            "link": "#",
+            "image": "Ydrizelba.png"
         },
         {
             "name": "C*k@ Bl*@t Rush B!",
@@ -85,30 +91,6 @@
             "image": "spacebattle.png"
         },
         {
-            "name": "Zerando Games",
-            "tags": ["UX-design", "web", "dev", "branding"],
-            "link": "#",
-            "image": "zerangoGames.png"
-        },
-        {
-            "name": "Ydrizelba",
-            "tags": ["UX-design", "dev", "branding"],
-            "link": "#",
-            "image": "Ydrizelba.png"
-        },
-        {
-            "name": "Libre",
-            "tags": ["UX-design", "dev", "mobile", "branding"],
-            "link": "#",
-            "image": "Libre.png"
-        },
-        {
-            "name": "Maestro Hero",
-            "tags": ["dev", "mobile"],
-            "link": "#",
-            "image": "MaestroHero.png"
-        },
-        {
             "name": "Graduation Jewelry",
             "tags": ["UX-design", "branding"],
             "link": "#",
@@ -119,6 +101,24 @@
             "tags": ["game-design", "dev"],
             "link": "#",
             "image": "robotfight.png"
+        },
+        {
+            "name": "My beard is divine",
+            "tags": ["graphic-design"],
+            "link": "#",
+            "image": "beardposter.png"
+        },
+        {
+            "name": "007 Spectre",
+            "tags": ["illustration"],
+            "link": "#",
+            "image": "007spectre.png"
+        },
+        {
+            "name": "Luna by the lake",
+            "tags": ["illustration"],
+            "link": "#",
+            "image": "lunag2.jpg"
         },
         {
             "name": "Iceman",
