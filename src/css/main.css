@@ -151,12 +151,14 @@ a:hover {
     height: 100%;
 }
 
-/* CONSTRUCT.HTML */
+/* 
+CONSTRUCT.HTML 
+*/
 .construction-content {
-  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 80vh; /* These two lines are counted as one :-)       */
-  display: flex;
-  align-items: center;
+    min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
 }
 
 .head {
@@ -167,4 +169,41 @@ a:hover {
 .user-message a {
     border-bottom: 1px dotted #37D3D3;
     color: black;
+}
+
+/* 
+CURRICULUM.HTML 
+*/
+
+.profile-pic {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.15);
+}
+
+h2, h3 {
+    color: black;
+}
+
+.e-mail {
+    color: black;
+    font-weight: 800;
+}
+
+.presentation-end {
+    border-bottom: 1px dashed black;
+}
+
+.college {
+    color: black;
+    font-size: 1.1em;
+    margin-bottom: 0px !important;
+}
+
+.degree {
+    margin-bottom: 0px !important;
 }
