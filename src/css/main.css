@@ -65,14 +65,14 @@ a:hover {
 
 .selected-filter {
     color: white;
-    background-color: #707070;
-    border: 1px solid #707070;
+    background-color: #539AFF;
+    border: 1px solid #539AFF;
     padding: 2px;
     border-radius: 5px;
 }
 
 .selected-filter:hover {
-    color: #707070;
+    color: #539AFF;
     background-color: white;
 }
 
