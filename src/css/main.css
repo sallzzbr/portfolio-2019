@@ -7,6 +7,10 @@
     url("fonts/GothamNarrow-Ultra.otf") format("otf"),
     }
 
+body {
+    overscroll-behavior: none;
+}
+
 .page-content {
     position: relative;
     min-height: 100vh;
