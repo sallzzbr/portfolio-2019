@@ -43,6 +43,11 @@ a:hover {
     font-family: 'Gothan Narrow', Arial, sans-serif;
 }
 
+.navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active {
+    color: #539AFF;
+    font-weight: 900;
+}
+
 /* FILTER */
 
 .filter-list li {
@@ -67,17 +72,20 @@ a:hover {
     opacity: 0.5;
 }
 
+.filter-button:hover, .hidden-filter:hover {
+    color: #539AFF;
+}
+
 .selected-filter {
-    color: white;
-    background-color: #539AFF;
+    color: #539AFF;
     border: 1px solid #539AFF;
     padding: 2px;
     border-radius: 5px;
 }
 
 .selected-filter:hover {
-    color: #539AFF;
-    background-color: white;
+    color: white;
+    background-color: #539AFF;
 }
 
 /* PROJECTS CARDS */
@@ -133,11 +141,16 @@ a:hover {
 
 .tags-list li a {
     text-transform: capitalize;
-    color: white;
-    background-color: #539AFF;
+    border: 1px solid #539AFF;
+    color: #539AFF;
     padding: 2px;
     border-radius: 5px;
     cursor: default;
+}
+
+.tags-list li a:hover {
+    background-color: #539AFF;
+    color: white;
 }
 
 /* FOOTER */
