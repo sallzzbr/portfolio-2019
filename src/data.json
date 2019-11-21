@@ -1,136 +1,164 @@
 {
-    "project": [
-        {
+    "project": [{
             "name": "Aeon",
             "tags": ["UX-design", "mobile", "branding"],
             "link": "https://medium.com/@sallzz/aeon-ab1a6dbf7f7",
-            "image": "AeonLogo.png"
+            "image": "AeonLogo.png",
+            "featured": true
         },
         {
             "name": "Libre",
             "tags": ["UX-design", "dev", "mobile", "branding"],
             "link": "https://www.behance.net/gallery/61225407/AEON-iOS-app",
-            "image": "Libre.png"
+            "image": "Libre.png",
+            "featured": true
         },
         {
             "name": "Forsetti",
             "tags": ["UX-design", "branding", "game-design", "dev", "animation"],
             "link": "https://www.behance.net/gallery/74379401/Forseti",
-            "image": "Forsetti.png"
+            "image": "Forsetti.png",
+            "featured": true
+        },
+        {
+            "name": "Chatbot Rico",
+            "tags": ["UX-design", "dev"],
+            "link": "under_construction.html",
+            "image": "chatbotrico.jpg",
+            "featured": true
         },
         {
             "name": "Organicards",
             "tags": ["UX-design", "game-design", "mobile", "branding"],
             "link": "https://www.behance.net/gallery/27547327/Organicards-Mobile-card-game",
-            "image": "OrganicardsLogo.png"
+            "image": "OrganicardsLogo.png",
+            "featured": false
         },
         {
             "name": "Guilho",
             "tags": ["UX-design", "branding", "web"],
             "link": "https://www.behance.net/gallery/61182167/Guilho-Website",
-            "image": "GuilhoLogo.png"
+            "image": "GuilhoLogo.png",
+            "featured": false
         },
         {
             "name": "Wedu",
             "tags": ["UX-design", "branding", "web"],
             "link": "https://www.behance.net/gallery/42305533/Wedu-Website",
-            "image": "WeduLogo.png"
+            "image": "WeduLogo.png",
+            "featured": false
         },
         {
             "name": "Odessa",
             "tags": ["game-design", "animation", "dev", "mobile", "branding"],
             "link": "https://www.behance.net/gallery/61071367/Odessa-Game-Design-iOS-game",
-            "image": "OdessaLogo.png"
+            "image": "OdessaLogo.png",
+            "featured": true
         },
         {
             "name": "CELPI",
             "tags": ["UX-design", "branding"],
             "link": "https://www.behance.net/gallery/75097435/CELPI-Branding-Manual-da-marca",
-            "image": "CelpiLogo.png"
+            "image": "CelpiLogo.png",
+            "featured": false
         },
         {
             "name": "Zerando Games",
             "tags": ["UX-design", "web", "dev", "branding"],
             "link": "https://www.behance.net/gallery/46249567/Zerando-Games-online-game-store",
-            "image": "zerangoGames.png"
+            "image": "zerangoGames.png",
+            "featured": false
         },
         {
             "name": "Bolsa bola",
             "tags": ["UX-design"],
             "link": "under_construction.html",
-            "image": "bolsabola.png"
+            "image": "bolsabola.png",
+            "featured": false
         },
         {
             "name": "Ploxsto",
             "tags": ["graphic-design"],
             "link": "https://www.behance.net/gallery/46245855/PLOXSTO-Games-magazine",
-            "image": "ploxsto.png"
+            "image": "ploxsto.png",
+            "featured": false
         },
         {
             "name": "Maestro Hero",
             "tags": ["dev", "mobile"],
             "link": "https://www.youtube.com/watch?v=1Gig7ZiUIPQ&t=13s",
-            "image": "MaestroHero.png"
+            "image": "MaestroHero.png",
+            "featured": true
         },
         {
             "name": "Ydrizelba",
             "tags": ["UX-design", "dev", "branding"],
             "link": "https://www.behance.net/gallery/61002791/Ydrizelba-Smart-Assistant",
-            "image": "Ydrizelba.png"
+            "image": "Ydrizelba.png",
+            "featured": false
         },
         {
             "name": "C*k@ Bl*@t Rush B!",
             "tags": ["game-design", "dev"],
             "link": "under_construction.html",
-            "image": "cykablyat.png"
+            "image": "cykablyat.png",
+            "featured": false
         },
         {
             "name": "Batalha especial",
             "tags": ["game-design"],
             "link": "https://www.behance.net/gallery/44086267/Batalha-espacial-Board-game",
-            "image": "spacebattle.png"
+            "image": "spacebattle.png",
+            "featured": false
         },
         {
             "name": "Graduation Jewelry",
             "tags": ["UX-design", "branding"],
             "link": "https://www.behance.net/gallery/81934081/Graduation-Jewelry",
-            "image": "Joias.png"
+            "image": "Joias.png",
+            "featured": false
         },
         {
             "name": "Robot fight",
             "tags": ["game-design", "dev"],
             "link": "under_construction.html",
-            "image": "robotfight.png"
+            "image": "robotfight.png",
+            "featured": false
         },
         {
             "name": "My beard is divine",
             "tags": ["graphic-design"],
             "link": "https://www.behance.net/gallery/38572339/My-beard-is-divine",
-            "image": "beardposter.png"
+            "image": "beardposter.png",
+            "featured": false
         },
         {
             "name": "007 Spectre",
             "tags": ["illustration"],
             "link": "https://www.behance.net/gallery/35838103/007-Spectre-poster-(writings-on-the-wall)",
-            "image": "007spectre.png"
+            "image": "007spectre.png",
+            "featured": false
         },
         {
             "name": "Luna by the lake",
             "tags": ["illustration"],
             "link": "https://www.behance.net/gallery/28665647/Luna-by-the-lake",
-            "image": "lunag2.jpg"
+            "image": "lunag2.jpg",
+            "featured": false
         },
         {
             "name": "Iceman",
             "tags": ["illustration"],
             "link": "https://www.behance.net/gallery/32280463/Low-Poly-Iceman",
-            "image": "iceman.png"
+            "image": "iceman.png",
+            "featured": false
         },
         {
             "name": "I'm nuclear",
             "tags": ["illustration"],
             "link": "https://www.behance.net/gallery/33615611/Im-Nuclear",
-            "image": "imnuclear.png"
+            "image": "imnuclear.png",
+            "featured": false
         }
     ]
 }
