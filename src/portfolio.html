@@ -25,8 +25,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto">
-                        <a class="nav-item nav-link active" href="#">portfolio <span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="index.html">home</a>
+                        <a class="nav-item nav-link active" href="#">portfolio<span class="sr-only">(current)</span></a>
                         <a class="nav-item nav-link" href="curriculum.html">curriculum</a>
                     </div>
                 </div>
@@ -97,7 +97,8 @@
         <script src="js/projectBuilder.js"></script>
         <script src="js/filter.js"></script>
         <script>
-            var projectBuilder = new ProjectBuilder() 
+            var projectBuilder = new ProjectBuilder();
+            projectBuilder.getProjects();
         </script>
     </div>
 </body>
